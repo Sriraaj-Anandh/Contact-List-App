@@ -1,0 +1,16 @@
+#contact-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+#contact-list-container {
+  height: 93vh;
+  overflow: auto;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.custom-img {
+  width: 250px;
+  height: 250px; 
+  object-fit: cover;
+}
